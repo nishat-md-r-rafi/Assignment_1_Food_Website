@@ -132,7 +132,7 @@ body {
 .food-item {
   background-color: snow;
   margin-bottom: 10px;
-  width: 250px;
+  width: 280px;
   border-radius: 25px;
   display: flexbox;
   box-shadow: 10px 10px 40px gray;
@@ -142,8 +142,14 @@ body {
   height: 150px;
   width: 100%;
   object-fit: cover;
-  padding: 8px;
+  padding: 12px;
   border-radius: 25px;
+}
+
+.food-item div p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 10;
 }
 
 .follow {
