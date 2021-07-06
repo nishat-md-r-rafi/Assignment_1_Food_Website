@@ -21,14 +21,29 @@
   color: orange;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .button {
   color: white;
-  background-image: linear-gradient(to right, orange, red);
-  padding: 0.3rem 0.8rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(168, 163, 153),
+    rgb(245, 235, 235)
+  );
+  padding: 1rem 1rem;
   border-radius: 15px;
   outline: 0% !important;
-  border: 6px orange;
-  box-shadow: 2px 1px 10px orange;
+  border: 6px rgb(231, 228, 222);
+  box-shadow: 2px 1px 10px rgb(236, 232, 223);
+  font-size: 15px;
 }
 
 section {
@@ -39,8 +54,8 @@ section {
 }
 
 section div img {
-  height: 80%;
-  width: 70%;
+  height: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -63,6 +78,10 @@ body {
   display: flex;
   padding-right: 2rem;
   background-image: url(shapes/applied.jpg);
+}
+
+.section-2 div {
+  padding-right: 3rem;
 }
 
 .section-2 div h1 {
@@ -135,7 +154,7 @@ body {
   box-shadow: 10px 10px 30px gray;
   margin: auto;
   margin-bottom: 2.5rem;
-  background-color: rgb(241, 211, 211);
+  background-color: transparent;
 }
 
 .follow h3 {
@@ -145,12 +164,18 @@ body {
 .follow a {
   text-decoration: none;
   color: white;
-  background-image: linear-gradient(to right, rgb(218, 166, 70), red);
-  padding: 0.3rem 0.8rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(168, 163, 153),
+    rgb(245, 235, 235)
+  );
+  padding: 1rem 1rem;
+  margin-left: 1.5rem;
   border-radius: 15px;
   outline: 0% !important;
-  border: 6px orange;
-  margin-left: 1.5rem;
+  border: 6px rgb(231, 228, 222);
+  box-shadow: 2px 1px 10px rgb(236, 232, 223);
+  font-size: 20px;
 }
 
 .follow a:hover {
@@ -167,4 +192,8 @@ footer {
 
 footer h3 {
   padding-bottom: 1rem;
+}
+
+h3 {
+  font-size: 30px;
 }
