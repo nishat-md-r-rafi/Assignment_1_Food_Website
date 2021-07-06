@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.left {
+  align-items: center;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+
+.left h1 {
+  margin-bottom: 1rem;
+}
+
+.left p {
+  margin-bottom: 1rem;
+}
+
+.orange {
+  color: orange;
+}
+
+.button {
+  color: white;
+  background-image: linear-gradient(to right, orange, red);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  outline: 0% !important;
+  border: 6px orange;
+  box-shadow: 2px 1px 10px orange;
+}
+
+section {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 25%;
+}
+
+section div img {
+  height: 80%;
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.section-1 {
+  display: flex;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.section-1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-2 {
+  display: flex;
+  padding-right: 2rem;
+  background-image: url(shapes/applied.jpg);
+}
+
+.section-2 div h1 {
+  margin-bottom: 1rem;
+}
+
+.section-2 div p {
+  margin-bottom: 1rem;
+}
+
+.section-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5px;
+}
+
+.half-height {
+  height: 50%;
+}
+
+.section-3 div {
+  display: block;
+  align-items: center;
+}
+
+.section-3 .heading {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-3 .heading p {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.section-3 .food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.food-item {
+  background-color: snow;
+  margin-bottom: 10px;
+  width: 250px;
+  border-radius: 25px;
+  display: flexbox;
+  box-shadow: 10px 10px 40px gray;
+}
+
+.food-item div img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+.follow {
+  width: 60%;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  box-shadow: 10px 10px 30px gray;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  background-color: rgb(241, 211, 211);
+}
+
+.follow h3 {
+  padding-bottom: 1rem;
+}
+
+.follow a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, rgb(218, 166, 70), red);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  outline: 0% !important;
+  border: 6px orange;
+  margin-left: 1.5rem;
+}
+
+.follow a:hover {
+  background-color: aquamarine;
+  color: aliceblue;
+}
+
+footer {
+  background-color: grey;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+footer h3 {
+  padding-bottom: 1rem;
+}
